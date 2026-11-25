@@ -1,0 +1,9 @@
+data:
+  raw_filename: "Customer-Churn-Records.csv"
+  raw_dir: "data/raw"
+  source_view: "mart.v_primary_features"
+model:
+  test_size: 0.2
+  random_state: 42
+  artifacts_dir: "models"
+  best_model_filename: "best_churn_pipeline.joblib"
